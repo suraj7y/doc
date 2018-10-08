@@ -1,0 +1,30 @@
+# git commands
+.................................................
+# using of .gitignore file
+> find . -name "*.pyc"  -delete
+> vim .gitignore
+-- *.pyc 
+> ls -a #to see all the files
+> git status
+> git add -A or git add .
+> git commit and push
+..................................................
+# for ignore a folder
+> vim .gitignore
+-- user/ # folder name and forword slas
+..................................................
+# how to remove file from git 
+> git rm --cached file name
+..................................................
+# removing .idea file 
+> git rm --cached -r .idea
+> git status
+> git add .
+> git commit -m "comment"
+> git push origin master
+..................................................
+# git branch management
+> git branch
+> git pull origin master
+> git checkout -b nam of branch
+> 
